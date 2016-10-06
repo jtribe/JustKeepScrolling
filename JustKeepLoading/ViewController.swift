@@ -36,7 +36,7 @@ class ViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		title = "Just Keep Loading"
+		title = "Just Keep Scrolling"
 		reloadData()
 		addPullToRefresh()
 	}

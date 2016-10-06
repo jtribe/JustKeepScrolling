@@ -54,49 +54,49 @@ class APIService: NSObject {
 let mockDataPages = [mockPage1,mockPage2,mockPage3,mockPage4]
 
 let mockPage1: [Item] = [
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image1")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image1")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image1")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image1")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image1")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image1")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image1")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image1")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image1")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image1"))
+	Item(name: "Hi, I'm Dory", description: "I just keep swimming", image: UIImage(named: "Dory1")),
+	Item(name: "Hi, I'm Dory", description: "I just keep swimming", image: UIImage(named: "Dory1")),
+	Item(name: "Hi, I'm Dory", description: "I just keep swimming", image: UIImage(named: "Dory1")),
+	Item(name: "Hi, I'm Dory", description: "I just keep swimming", image: UIImage(named: "Dory1")),
+	Item(name: "Hi, I'm Dory", description: "I just keep swimming", image: UIImage(named: "Dory1")),
+	Item(name: "Hi, I'm Dory", description: "I just keep swimming", image: UIImage(named: "Dory1")),
+	Item(name: "Hi, I'm Dory", description: "I just keep swimming", image: UIImage(named: "Dory1")),
+	Item(name: "Hi, I'm Dory", description: "I just keep swimming", image: UIImage(named: "Dory1")),
+	Item(name: "Hi, I'm Dory", description: "I just keep swimming", image: UIImage(named: "Dory1")),
+	Item(name: "Hi, I'm Dory", description: "I just keep swimming", image: UIImage(named: "Dory1"))
 ]
 
 let mockPage2: [Item] = [
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image2")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image2")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image2")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image2")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image2")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image2")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image2")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image2")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image2")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image2"))
+	Item(name: "P. Sherman 42 Wallaby Way, Sydney", description: "I just keep swimming", image: UIImage(named: "Dory2")),
+	Item(name: "P. Sherman 42 Wallaby Way, Sydney", description: "I just keep swimming", image: UIImage(named: "Dory2")),
+	Item(name: "P. Sherman 42 Wallaby Way, Sydney", description: "I just keep swimming", image: UIImage(named: "Dory2")),
+	Item(name: "P. Sherman 42 Wallaby Way, Sydney", description: "I just keep swimming", image: UIImage(named: "Dory2")),
+	Item(name: "P. Sherman 42 Wallaby Way, Sydney", description: "I just keep swimming", image: UIImage(named: "Dory2")),
+	Item(name: "P. Sherman 42 Wallaby Way, Sydney", description: "I just keep swimming", image: UIImage(named: "Dory2")),
+	Item(name: "P. Sherman 42 Wallaby Way, Sydney", description: "I just keep swimming", image: UIImage(named: "Dory2")),
+	Item(name: "P. Sherman 42 Wallaby Way, Sydney", description: "I just keep swimming", image: UIImage(named: "Dory2")),
+	Item(name: "P. Sherman 42 Wallaby Way, Sydney", description: "I just keep swimming", image: UIImage(named: "Dory2")),
+	Item(name: "P. Sherman 42 Wallaby Way, Sydney", description: "I just keep swimming", image: UIImage(named: "Dory2"))
 ]
 
 let mockPage3: [Item] = [
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image3")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image3")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image3")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image3")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image3")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image3")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image3")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image3")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image3")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image3"))
+	Item(name: "I can't remember", description: "I just keep swimming", image: UIImage(named: "Dory3")),
+	Item(name: "I can't remember", description: "I just keep swimming", image: UIImage(named: "Dory3")),
+	Item(name: "I can't remember", description: "I just keep swimming", image: UIImage(named: "Dory3")),
+	Item(name: "I can't remember", description: "I just keep swimming", image: UIImage(named: "Dory3")),
+	Item(name: "I can't remember", description: "I just keep swimming", image: UIImage(named: "Dory3")),
+	Item(name: "I can't remember", description: "I just keep swimming", image: UIImage(named: "Dory3")),
+	Item(name: "I can't remember", description: "I just keep swimming", image: UIImage(named: "Dory3")),
+	Item(name: "I can't remember", description: "I just keep swimming", image: UIImage(named: "Dory3")),
+	Item(name: "I can't remember", description: "I just keep swimming", image: UIImage(named: "Dory3")),
+	Item(name: "I can't remember", description: "I just keep swimming", image: UIImage(named: "Dory3"))
 ]
 
 let mockPage4: [Item] = [
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image4")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image4")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image4")),
-	Item(name: "This is the name of the item", description: "Here is another description.", image: UIImage(named: "Image4"))
+	Item(name: "I don't think I've ever eaten a fish", description: "I just keep swimming", image: UIImage(named: "Dory4")),
+	Item(name: "I don't think I've ever eaten a fish", description: "I just keep swimming", image: UIImage(named: "Dory4")),
+	Item(name: "I don't think I've ever eaten a fish", description: "I just keep swimming", image: UIImage(named: "Dory4")),
+	Item(name: "I don't think I've ever eaten a fish", description: "I just keep swimming", image: UIImage(named: "Dory4"))
 ]
 
 // API Delay Simulation
